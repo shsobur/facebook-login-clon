@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(240, 242, 245);
+}
+.left-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side h1{
+  font-size: 5.8vw;
+  color: rgb(24, 119, 242);
+  padding-bottom: 5px;
+}
+.left-side p{
+  font-size: 2.7vw;
+}
+.right{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log-in {
+  height: 65vh;
+  width: 33vw;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 8px 8px 8px -10px black;
+}
+.log-in input{
+  display: block;
+  width: 28vw;
+  height: 8.3vh;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 15px 30px;
+  padding: 0 30px;
+  font-size: 1.5vw;
+  box-shadow: 8px 8px 8px -10px black;
+}
+#but-1{
+  width: 28vw;
+  height: 8.3vh;
+  font-size: 1.8vw;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin: 0 30px;
+  background-color: rgb(24, 119, 242);
+}
+.log-in p{
+  margin-top: 15px;
+}
+.log-in a{
+  margin-left: 132px;
+  color: blue;
+  text-decoration: none;
+}
+.log-in a:hover{
+  text-decoration: underline;
+}
+.log-in hr{
+  width: 28vw;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#but-2 {
+  height: 9vh;
+  width: 17vw;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(54, 164, 32);
+  margin-top: 35px;
+  margin-left: 100px;
+}
